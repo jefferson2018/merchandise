@@ -27,4 +27,6 @@ public class Category {
 	private Long id;
 	@Column
 	private String name;
+	
+	
 }
