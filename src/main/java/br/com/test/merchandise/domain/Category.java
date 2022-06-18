@@ -13,14 +13,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Entity
-@Table(name = "category")
+@Table(name = "category") 
 public class Category {
 	
 	@Id
@@ -28,5 +27,4 @@ public class Category {
 	private Long id;
 	@Column
 	private String name;
-	
 }
